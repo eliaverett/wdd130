@@ -1,16 +1,16 @@
 @import URL('https://fonts.googleapis.com/css2?family=Permanenet+Marker&family=Roboto+Serif&display=swap');
 
 :root {
-    --primary-color: #d8e9eb;
+    --primary-color: #033058;
     --secondary-color: #fcde92;
-    --accent1-color: #033058;
+    --accent1-color: #fcde92;
     --accent2-color: #2a5c27;
 
     --heading-font: 'Permanent Marker';
     --paragraph-font: 'Roboto Serif';
 
-    --nav-background-color: #033058;
-    --nav-link-color: #2a5c27;
+    --nav-background-color: #fcde92;
+    --nav-link-color: #033058;
     --nav-hover-link-color: #e68723;
     --nav-hover-background-color: #e68723;
 }
