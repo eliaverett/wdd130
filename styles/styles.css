@@ -76,3 +76,7 @@ footer {
     background-color: rgb(149, 174, 2);
     color: bisque;
 }
+
+main img {
+    float: right;
+}
