@@ -14,3 +14,14 @@
     --nav-hover-link-color: #e68723;
     --nav-hover-background-color: #e68723;
 }
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
