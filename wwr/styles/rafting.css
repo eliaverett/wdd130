@@ -36,7 +36,9 @@ header {
     background-color: #007acc;
     color: #fff;
     padding: 10px;
-    text-align: center;
+    text-align: end;
+    grid-template-columns: 120px;
+    align-items: center;
 }
 
 header img {
