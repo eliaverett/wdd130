@@ -53,9 +53,10 @@ p {
 
 }
 
-aside h2 {
-    top: 815px;
-    left: 68px;
+.aside h2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
 }
 
@@ -116,4 +117,9 @@ aside {
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+}
+
+body {
+    border-top: 1px solid #000;
+    padding-top: 1px;
 }
