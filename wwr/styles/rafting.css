@@ -26,6 +26,7 @@ img {
 
 body {
     font-family: 'Roboto Serif', serif;
+    text-align: center;
 }
 
 h1 {
@@ -138,6 +139,7 @@ footer {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
 
@@ -162,4 +164,13 @@ figcaption {
 .adventure-figure img {
     max-width: 200px;
     height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
 }
