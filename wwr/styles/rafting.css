@@ -18,6 +18,10 @@
 body,
 h1,
 h2,
+h3,
+h4,
+h5,
+h6,
 p,
 img {
     margin: 0;
@@ -172,5 +176,9 @@ h3,
 h4,
 h5,
 h6 {
+    text-align: center;
+}
+
+.adventures-section h3 {
     text-align: center;
 }
