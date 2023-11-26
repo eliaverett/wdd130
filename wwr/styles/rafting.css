@@ -137,15 +137,18 @@ footer {
     justify-content: space-between;
 }
 
-.adventure-figure {}
+.adventure-figure {
+    text-align: center;
+    margin: 10px;
+}
 
-.adventure-img {}
+.adventure-img {
+    max-width: 10%;
+    height: 200px
+}
 
-figcaption {}
-
-.section {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #fcde92
 }
