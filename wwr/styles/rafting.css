@@ -134,13 +134,16 @@ footer {
 
 .adventures-section {
     display: flex;
+    flex-direction: nowrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .adventure-figure {
     text-align: center;
     margin: 10px;
     height: 500px;
+    margin-bottom: 20px;
 }
 
 .adventure-img {
@@ -155,6 +158,6 @@ figcaption {
 }
 
 .adventure-figure img {
-    max-width: 100px;
-    height: 100px;
+    max-width: 200px;
+    height: auto;
 }
