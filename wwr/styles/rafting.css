@@ -135,11 +135,11 @@ footer {
 
 .adventures-section {
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .adventure-figure {
     text-align: center;
