@@ -135,7 +135,8 @@ footer {
 
 .adventures-section {
     display: flex;
-    flex-direction: nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
 }
