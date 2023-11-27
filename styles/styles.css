@@ -22,38 +22,62 @@ nav a {
     color: #fff;
 }
 
-h1 {
-    color: steelblue;
-    border-bottom: 1px solid steelblue;
-    padding-bottom: 10px;
-}
-
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-
-p {
-    padding: 10px;
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 main {
-    grid-area: main;
+    flex: 2;
     margin: 1rem;
+}
+
+aside {
+    flex: 1;
+    margin: 1rem;
+}
+
+.main-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h1 {
+    color: steelblue;
+    border-bottom: 1px solid steelblue;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.image-container {
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 15px;
     text-align: center;
 }
 
+.image-container img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.idaho-section {
+    text-align: left;
+}
+
 footer {
-    grid-area: footer;
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
 
-/* Style for Idaho section */
 h2 {
-    color: steelblue;
+    color: steelblue
 }
