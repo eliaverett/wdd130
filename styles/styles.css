@@ -24,7 +24,8 @@ nav a {
 
 h1 {
     color: steelblue;
-    border-bottom: 1px;
+    border-bottom: 1px solid steelblue;
+    padding-bottom: 10px;
 }
 
 img {
@@ -32,14 +33,12 @@ img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray
+    box-shadow: 0 0 30px gray;
 }
 
 p {
     padding: 10px;
 }
-
-
 
 .aside {
     width: 20rem;
@@ -50,7 +49,6 @@ p {
     color: #333;
     text-align: center;
     position: relative;
-
 }
 
 .aside h2 {
@@ -59,7 +57,6 @@ p {
     transform: translate(-50%, -50%);
     position: absolute;
 }
-
 
 aside img {
     width: 200px;
@@ -71,16 +68,11 @@ main img {
     height: auto;
 }
 
-p {
-    padding: 10px;
-}
-
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
-
 
 .box {
     margin: 1rem;
@@ -90,36 +82,33 @@ footer {
     color: bisque;
 }
 
-main img {
-    float: right;
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "aside" "footer";
 }
 
-header,
-.grid,
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
 footer {
-    max-width: 840px;
-    justify-content: center;
-    margin: 0 auto
+    grid-area: footer;
 }
 
 .grid {
     display: grid;
-    align-items: center;
-}
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 
-main {
-    grid-column: 2/3;
-    margin: 1rem;
-}
-
-aside {
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-body {
-    border-top: 1px solid #000;
-    padding-top: 1px;
-}
+    main {
+        margin: 1rem;
+    }
