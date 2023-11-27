@@ -40,75 +40,20 @@ p {
     padding: 10px;
 }
 
-.aside {
-    width: 20rem;
+main {
+    grid-area: main;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
-    position: relative;
-}
-
-.aside h2 {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-}
-
-main img {
-    width: 150px;
-    height: auto;
 }
 
 footer {
+    grid-area: footer;
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
 
-.box {
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, .1);
-    padding: 1rem;
-    background-color: rgb(229, 227, 202);
-    color: bisque;
+/* Style for Idaho section */
+h2 {
+    color: steelblue;
 }
-
-body {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: "header" "main" "aside" "footer";
-}
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-}
-
-aside {
-    grid-area: aside;
-}
-
-footer {
-    grid-area: footer;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-
-    main {
-        margin: 1rem;
-    }
