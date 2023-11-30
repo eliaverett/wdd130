@@ -1,6 +1,6 @@
 * {
-    margin: zero;
-    padding: zero;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 
 }
@@ -57,7 +57,7 @@ textarea {
 label {
     text-align: center;
     padding-right: 1rem;
-    margin: 5px, 5px, 5px;
+    margin: 5px 5px 5px;
 }
 
 input,
