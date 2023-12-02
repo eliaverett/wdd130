@@ -4,9 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Eli Averett">
-    <meta name="description" content="This page contains the contact information for contacting the company">
-    <title>Contact Us | Rexburg Rafting Company</title>
+    <title>Contact Us | Eli Averett</title>
     <link rel="stylesheet" href="styles/contact.css">
 </head>
 
@@ -22,13 +20,12 @@
     </header>
 
     <main>
-
         <div class="about-us-heading">
             <p>About Us</p>
         </div>
 
         <div class="information">
-            <h1>Address: 2495 E Lincoln Rd, Idaho Falls, ID 83401</h1>
+            <h2>Address: 2495 E Lincoln Rd, Idaho Falls, ID 83401</h2>
             <h3>Phone Number: (214)-945-6196</h3>
             <h4>Email: thebestraftingcompany@fun.com</h4>
         </div>
@@ -54,21 +51,32 @@
             </fieldset>
 
             <fieldset>
+                <legend>Purpose of the message</legend>
                 <div class="radio">
-                    <legend>Purpose of the message</legend>
-                    <label for="purpose">What is the purpose of this message?</label>
-                    <input type="radio" id="option1" name="purpose" value="option1">
-                    <label for="option1">General Inquiry</label>
-                    <input type="radio" id="option2" name="purpose" value="option2">
-                    <label for="option2">Reservation Question</label>
-                    <input type="radio" id="option3" name="purpose" value="option3">
-                    <label for="option3">Website Suggestion</label>
+                    <div>
+                        <input type="radio" id="option1" name="purpose" value="option1">
+                        <label for="option1">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="option2" name="purpose" value="option2">
+                        <label for="option2">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="option3" name="purpose" value="option3">
+                        <label for="option3">Website Suggestion</label>
+                    </div>
                 </div>
 
-                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-                <input type="checkbox" id="pet" name="pet">
-                <label for="feedback">What would you like to say to us?</label>
-                <textarea id="feedback" name="feedback" rows="4" placeholder="Please put message here"></textarea>
+                <div class="form-item">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </div>
+
+                <div class="form-item">
+                    <label for="feedback">What would you like to say to us?</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Please put message here"></textarea>
+                </div>
+
                 <button type="submit">Send Message</button>
             </fieldset>
         </form>
@@ -81,9 +89,9 @@
 
             <div class="other-employees">
                 <img src="images/happy_employee2.jpeg" alt="Happy Employee 2">
-                <h7 class="employee-title">Greg Jenkins | CFO</h7>
+                <h6 class="employee-title">Greg Jenkins | CFO</h6>
                 <img src="images/happy_employee3.jpeg" alt="Happy Employee 3">
-                <h8 class="employee-title">Lucy Jordan | COO</h8>
+                <h6 class="employee-title">Lucy Jordan | COO</h6>
             </div>
         </div>
     </main>
@@ -105,6 +113,5 @@
 </body>
 
 </html>
-
 
 <!-- https://app.moqups.com/Tn96n7QMjZFD9C4SW1Cf5ZSVsmxcFj5P/view/page/ad64222d5 -->
