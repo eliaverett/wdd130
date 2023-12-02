@@ -54,7 +54,7 @@ body {
     grid-template-areas:
         'header header header'
         'information information information'
-        'form form form'
+        'map form images'
         'footer footer footer';
     grid-template-rows: auto auto 1fr auto;
     grid-template-columns: repeat(3, 1fr);
@@ -65,86 +65,23 @@ main {
     grid-area: form;
 }
 
+.information {
+    grid-area: information;
+}
+
 .map {
     grid-area: map;
-    height: auto;
     max-width: 100%;
 }
 
-.contact {
-    grid-area: contact;
-    font-family: 'Permanent Marker';
-    color: steelblue;
-    font-size: 15px;
-    padding-top: 15px;
-    text-align: center;
-}
-
 form {
-    width: 650px;
+    grid-area: form;
+    width: 80%;
+    /* Adjust the width as needed */
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-    background-color: #2a5c27;
-}
-
-fieldset {
-    display: grid;
-    grid-gap: 0.5rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-}
-
-legend {
-    padding: 0.5rem;
-    color: #fcde92;
-    font-size: 1.3em;
-}
-
-label,
-input,
-button,
-select,
-textarea {
-    font-family: 'Permanent Marker';
-}
-
-label {
-    text-align: right;
-    padding-right: 1rem;
-}
-
-input,
-select,
-textarea {
-    padding: 0.5rem;
-    font-size: 1.1rem;
-}
-
-input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
-}
-
-.button-container {
-    display: flex;
-    justify-content: center;
-}
-
-button {
-    margin: 1rem;
-    background-color: #fcde92;
-    color: steelblue;
-    border: none;
-    border-radius: 0.5rem;
-    padding: 0.75rem;
-    font-size: 1.2rem;
-}
-
-button:hover {
     background-color: #2a5c27;
 }
 
@@ -153,26 +90,17 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    /* Align items to the right */
-
-    @media (min-width: 768px) {
-        flex-direction: row;
-        /* Change to a row layout on larger screens */
-        justify-content: flex-end;
-        /* Align items to the right in a row layout */
-    }
 }
 
 .firstemployee,
 .other-employees {
     text-align: center;
     margin-right: 10px;
-    /* Add some margin between the images */
 }
 
 .firstemployee img,
 .other-employees img {
-    width: 100%;
+    width: 50%;
     height: auto;
     max-height: 150px;
     margin: 5px;
@@ -189,4 +117,14 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    body {
+        grid-template-areas:
+            'header header header'
+            'information information information'
+            'map form images'
+            'footer footer footer';
+    }
 }
