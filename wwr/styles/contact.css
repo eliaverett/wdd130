@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Serif&display=swap');
+
+:root {
+    --primary-color: #033058;
+    --secondary-color: #fcde92;
+    --accent1-color: #fcde92;
+    --accent2-color: #2a5c27;
+
+    --heading-font: 'Permanent Marker';
+    --paragraph-font: 'Roboto Serif';
+
+    --nav-background-color: #fcde92;
+    --nav-link-color: #033058;
+    --nav-hover-link-color: #e68723;
+    --nav-hover-background-color: #e68723;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--nav-background-color);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav a {
+    color: var(--nav-link-color);
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: Roboto Serif;
+}
+
+.information {
+    font-family: Permanent Marker;
+    color: steelblue;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+h1 {
+    font-family: Permanent Marker;
+    color: steelblue;
+    padding-top: 10px;
+    font-size: 45px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid steelblue;
+}
+
+.map {
+    width: 50%;
+    height: 100px;
+    max-width: 50px;
+}
