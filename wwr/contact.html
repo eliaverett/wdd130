@@ -4,9 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Contact Us | Eli Averett </title>
-    <meta name="author" content="Eli Averett">
-    <meta name="description" content="This website contains the contact information for the rafting website page.">
+    <title>Contact Us | Eli Averett</title>
     <link rel="stylesheet" href="styles/contact.css">
 </head>
 
@@ -22,41 +20,32 @@
     </header>
 
     <main>
-        <h1>About Us</h1>
         <div class="information">
             <h2>Address: 2495 E Lincoln Rd, Idaho Falls, ID 83401</h2>
             <h3>Phone Number: (214)-945-6196</h3>
             <h4>Email: thebestraftingcompany@fun.com</h4>
-
         </div>
+
         <div class="map">
-            <h5><iframe
+            <h5>
+                <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23153.861228794034!2d-111.98926371249993!3d43.497481910658685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53545fedcd1de70b%3A0x6b67ed8ba9f3b239!2sCostco%20Wholesale!5e0!3m2!1sen!2sus!4v1701491320108!5m2!1sen!2sus"
                     width="600" height="450" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe></h5>
-        </div>
-
-        <div class="employeeimages">
-            <img src="images/happy_employee1.jpeg" href="Happy Employee 1">
-            <h6> Susan Johnson | CEO</h6>
-            <img src="images/happy_employee2.jpeg" href="Happy Employee 2">
-            <h7>Greg Jenkins | CFO</h7>
-            <img src="images/happy_employee3.jpeg" href="Happy Employee 3">
-            <h8>Lucy Jordan | COO</h8>
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </h5>
         </div>
 
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <div class="form-item"></div>
-                <label for="fullname">Full Name</label>
-                <input type="text" id="fullname" name="fullname">
+                <div class="form-item">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
                 </div>
                 <div class="form-item column2">
                     <label for="useremail">Email</label>
                     <input type="email" id="useremail" name="useremail">
                 </div>
-
             </fieldset>
 
             <fieldset>
@@ -71,15 +60,27 @@
                     <label for="option3">Website Suggestion</label>
                 </div>
 
-
-                <label for="newsletter">Please subscribe me to the
-                    monthly newsletter</label>
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
                 <input type="checkbox" id="pet" name="pet">
                 <label for="feedback">What would you like to say to us?</label>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="Please put message here"></textarea>
                 <button type="submit">Send Message</button>
             </fieldset>
         </form>
+
+        <div class="employee-images">
+            <div class="firstemployee">
+                <img src="images/happy_employee1.jpeg" alt="Happy Employee 1">
+                <h6 class="employee-title">Susan Johnson | CEO</h6>
+            </div>
+
+            <div class="other-employees"> <!-- Changed class name to avoid conflicts -->
+                <img src="images/happy_employee2.jpeg" alt="Happy Employee 2">
+                <h7 class="employee-title">Greg Jenkins | CFO</h7>
+                <img src="images/happy_employee3.jpeg" alt="Happy Employee 3">
+                <h8 class="employee-title">Lucy Jordan | COO</h8>
+            </div>
+        </div>
     </main>
 
     <footer>
