@@ -2,15 +2,15 @@
 
 :root {
     --primary-color: #033058;
-    --secondary-color: #fcde92;
-    --accent1-color: #fcde92;
+    --secondary-color: #fdf3d3;
+    --accent1-color: #fdf3d3;
     --accent2-color: #2a5c27;
 
     --heading-font: 'Permanent Marker';
     --paragraph-font: 'Roboto Serif';
 
-    --nav-background-color: #fcde92;
-    --nav-link-color: #033058;
+    --nav-background-color: #2a5c27;
+    --nav-link-color: #FDF3D3;
     --nav-hover-link-color: #e68723;
     --nav-hover-background-color: #e68723;
 }
@@ -163,7 +163,7 @@ footer {
 figcaption {
     margin-top: 10px;
     font-style: italic;
-    color: #fcde92
+    color: black
 }
 
 .adventure-figure img {
