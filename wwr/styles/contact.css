@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Serif&display=swap');
 
 :root {
-    --primary-color: #033058;
+    --primary-color: navy;
     --secondary-color: #fdf3d3;
     --accent1-color: #fdf3d3;
     --accent2-color: #2a5c27;
@@ -19,6 +19,7 @@ body {
     font-family: var(--paragraph-font), sans-serif;
     margin: 0;
     padding: 0;
+    background-color: beige;
 }
 
 header {
@@ -94,7 +95,7 @@ main {
     font-size: 0.9em;
 }
 
-.information h2,
+.information h1,
 .information h3,
 .information h4 {
     color: var(--primary-color);
@@ -109,7 +110,7 @@ form {
     margin: 0 auto;
     padding: 1rem;
     border-radius: 0.5rem;
-    background-color: #2a5c27;
+    background-color: orange;
 }
 
 
