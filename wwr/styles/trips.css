@@ -28,6 +28,19 @@ img {
     padding: 0;
 }
 
+h1 {
+    border-bottom: 2px solid orange;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: navy;
+}
+
+body {
+    font-family: var(--paragraph-font), serif;
+    text-align: center;
+    background-color: beige;
+}
+
 header {
     background-color: var(--nav-background-color);
     color: #2a5c27;
@@ -44,16 +57,19 @@ header img {
     height: auto;
 }
 
+
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 nav a {
     text-decoration: none;
     color: var(--nav-link-color);
     padding: 10px;
+    margin: 0 10px;
     transition: color 0.3s ease-in-out;
 }
 
@@ -65,11 +81,68 @@ main {
     padding: 20px;
 }
 
-body {
-    font-family: 'Roboto Serif', serif;
-    text-align: center;
-    background-color: beige;
+.trip_1,
+.trip_2,
+.trip_3,
+.table,
+.contact {
+    margin-bottom: 20px;
+}
 
+.trip_1,
+.trip_2,
+.trip_3 {
+    display: flex;
+    flex-direction: row;
+    /* Set to row instead of column */
+    align-items: center;
+}
+
+.trip_1 img,
+.trip_2 img,
+.trip_3 img {
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    margin-right: 10px;
+    /* Add margin to separate images */
+}
+
+.trip-text {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    background: orange;
+    color: navy;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    font-family: var(--paragraph-font);
+    color: orange background-color: var(--accent1-color);
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--accent2-color);
 }
 
 footer {
@@ -77,5 +150,13 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    width: 100%;
+}
+
+.sociallinks a {
+    margin: 0 10px;
+}
+
+.sociallinks img {
+    max-width: 30px;
+    height: auto;
 }
