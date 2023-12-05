@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Serif&display=swap');
+
+:root {
+    --primary-color: navy;
+    --secondary-color: #fdf3d3;
+    --accent1-color: #fdf3d3;
+    --accent2-color: #2a5c27;
+
+    --heading-font: 'Permanent Marker';
+    --paragraph-font: 'Roboto Serif';
+
+    --nav-background-color: #2a5c27;
+    --nav-link-color: #FDF3D3;
+    --nav-hover-link-color: #e68723;
+    --nav-hover-background-color: #e68723;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--nav-background-color);
+    color: #2a5c27;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-area: header;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--nav-link-color);
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+}
+
+main {
+    padding: 20px;
+}
+
+body {
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
+    background-color: beige;
+
+}
+
+footer {
+    background-color: var(--nav-background-color);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
