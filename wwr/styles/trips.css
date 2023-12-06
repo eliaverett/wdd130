@@ -57,7 +57,6 @@ header img {
     height: auto;
 }
 
-
 nav {
     display: flex;
     justify-content: center;
@@ -69,7 +68,7 @@ nav a {
     text-decoration: none;
     color: var(--nav-link-color);
     padding: 10px;
-    margin: 0 10px;
+    margin: 0 20px;
     transition: color 0.3s ease-in-out;
 }
 
@@ -94,7 +93,6 @@ main {
 .trip_3 {
     display: flex;
     flex-direction: row;
-    /* Set to row instead of column */
     align-items: center;
 }
 
@@ -104,7 +102,6 @@ main {
     border: 2px solid var(--primary-color);
     border-radius: 5px;
     margin-right: 10px;
-    /* Add margin to separate images */
 }
 
 .trip-text {
@@ -133,7 +130,8 @@ main {
 
 button {
     font-family: var(--paragraph-font);
-    color: orange background-color: var(--accent1-color);
+    color: navy;
+    background-color: var(--accent1-color);
     padding: 10px 20px;
     cursor: pointer;
     border: none;
