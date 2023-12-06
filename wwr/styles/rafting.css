@@ -32,7 +32,6 @@ body {
     font-family: 'Roboto Serif', serif;
     text-align: center;
     background-color: beige;
-
 }
 
 h1 {
@@ -114,12 +113,16 @@ section p {
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    font-size: 0;
+    /* Set font size to 0 for the container */
 }
 
 .sociallinks a {
     margin: 0 10px;
     text-decoration: none;
     border-bottom: none;
+    font: initial;
+    /* Reset font size for the child elements */
 }
 
 .sociallinks img {
@@ -141,7 +144,6 @@ section p {
     text-align: center;
 }
 
-
 .adventure-figure {
     text-align: center;
     margin: 10px;
@@ -158,7 +160,7 @@ section p {
 figcaption {
     margin-top: 10px;
     font-style: italic;
-    color: black
+    color: black;
 }
 
 .adventure-figure img {
@@ -183,7 +185,6 @@ h3 {
     color: #033058;
     justify-content: center;
     text-align: center;
-
 }
 
 footer {
